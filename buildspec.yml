@@ -15,5 +15,5 @@ build:
     - python src/evaluate.py
 artifacts:
   files:
-    - "artifacts/*"
+    - artifacts/**
 discard-paths: no
