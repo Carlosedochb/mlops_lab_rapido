@@ -9,7 +9,7 @@ def main():
     print("Evaluación -> accuracy:", acc)
     if acc < MIN_ACC:
         print("FAIL: accuracy por debajo del umbral", MIN_ACC)
-        sys.exit(0)
+    sys.exit(1)
     print("Evaluación OK")
 if __name__ == "__main__":
     main()
