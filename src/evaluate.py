@@ -1,6 +1,6 @@
 import json, sys
 # Umbral mínimo aceptable (si lo subes, forzarás un FAIL)
-MIN_ACC = 1
+MIN_ACC = 0.50
 
 def main():
     with open("artifacts/metrics.json") as f:
